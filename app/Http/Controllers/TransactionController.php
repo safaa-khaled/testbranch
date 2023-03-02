@@ -18,7 +18,7 @@ class TransactionController extends Controller
      */
     public function index()
     {
-        /*
+       
         $type= Inside::create([
             'inside_org'=>'test inside',
         ]);
@@ -45,7 +45,7 @@ class TransactionController extends Controller
         
         $transaction3->type()->associate($type3);
         $transaction3->save();
-*/
+
 
         dd(Transaction::where('type_type','=','App\Models\Inside')->get());
 
