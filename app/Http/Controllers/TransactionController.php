@@ -18,6 +18,7 @@ class TransactionController extends Controller
      */
     public function index()
     {
+        /////added test function
        
         $type= Inside::create([
             'inside_org'=>'test inside',
